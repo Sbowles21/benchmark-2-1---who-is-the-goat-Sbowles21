@@ -1,9 +1,9 @@
 h1,p{
-    margin: 200px;
+    margin: 20px;
     padding: 15px;
     border-radius: 5px;
-    background:#fff000;
-    color: #b5a269;
+    background: #b5a269 ;
+    color:#fff000;
     text-align: center;
     }
 body{background: linear-gradient(to bottom left, #73C8A9, #373B44);}
