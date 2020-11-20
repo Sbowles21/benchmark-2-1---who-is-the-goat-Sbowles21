@@ -1,0 +1,26 @@
+h1,p{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background:#fff000;
+    color: #b5a269;
+    }
+body{background: linear-gradient(to bottom left, #73C8A9, #373B44);}
+h1{
+    font-size:25px;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+.clay1{
+    border: 5px solid#101536;
+    border-radius: 100%;
+    width: 150px;
+}
+.clay2,.clay3{
+    border: 5px solid#101536;
+    border-radius: 15px;
+    width: 250px;
+    size: 100px;
+}
