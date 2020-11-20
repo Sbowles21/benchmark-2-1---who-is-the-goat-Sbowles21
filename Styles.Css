@@ -4,6 +4,7 @@ h1,p{
     border-radius: 5px;
     background:#fff000;
     color: #b5a269;
+    text-align: center;
     }
 body{background: linear-gradient(to bottom left, #73C8A9, #373B44);}
 h1{
@@ -23,4 +24,7 @@ p{
     border-radius: 15px;
     width: 250px;
     size: 100px;
+}
+.stats{
+    font-size:30px;
 }
