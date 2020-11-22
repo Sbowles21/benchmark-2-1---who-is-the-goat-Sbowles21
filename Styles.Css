@@ -2,7 +2,7 @@ h1,p{
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
-    background: #b5a269 ;
+    background: #101536 ;
     color:#fff000;
     text-align: center;
     }
@@ -15,13 +15,13 @@ p{
     font-size: 20px;
 }
 .clay1{
-    border: 5px solid#101536;
+    border: 5px solid #b5a269;
     border-radius: 100%;
     height: 150px;
     width: 150px;
 }
 .clay2,.clay3{
-    border: 5px solid#101536;
+    border: 5px solid#b5a269;
     border-radius: 15px;
     height: 250px;
     width: 250px;
