@@ -5,7 +5,7 @@ body{
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
-    background: #101536;
+    background: #101536 ;
     color:#fff000;
     text-align: center;
     }
@@ -20,7 +20,7 @@ a{
     color: #fff000;
 }
 .clay1{
-    border: 5px solid#b5a269 ;
+    border: 5px solid #b5a269;
     border-radius: 100%;
     height: 150px;
     width: 150px;
