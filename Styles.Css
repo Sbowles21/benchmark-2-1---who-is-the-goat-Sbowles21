@@ -1,11 +1,6 @@
 body{
     background: linear-gradient(to bottom left, #73C8A9, #373B44);
 }
-@media{ 
-    body{
-        background: linear-gradient(to top right, #BE5869, #403A3E);
-    }
- }
 #main{
     margin: 20px;
     padding: 15px;
