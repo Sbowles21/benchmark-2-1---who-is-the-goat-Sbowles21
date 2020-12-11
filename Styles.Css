@@ -1,6 +1,11 @@
 body{
     background: linear-gradient(to bottom left, #73C8A9, #373B44);
 }
+@media only screen and (max-width: 600px){ 
+    body{
+        background: linear-gradient(to top right, #73C8A9, #373B44);
+    }
+}
 #main{
     margin: 20px;
     padding: 15px;
@@ -10,7 +15,7 @@ body{
     place-items: center;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    flex: 1 1 150px;
+    text-align: center;
     }
 h1{
     font-size:25px;
