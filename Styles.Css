@@ -1,13 +1,8 @@
 body{
     background: linear-gradient(to top right, #BE5869, #373B44);
-}
-@media (max-width: 50rem) {
-    body {
-        background: linear-gradient(to bottom left, #73C8A9, #373B44);
-    }
-  }
+}  
 #main{
-    margin: 50px;
+    margin: 30px;
     padding: 15px;
     border-radius: 5px;
     background: #101536 ;
@@ -18,11 +13,11 @@ body{
     text-align: center;
     }
 h1{
-    font-size:25px;
+    font-size:22px;
 }
 p{
     font-family: "Times New Roman", Times, serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 a{
     color: #fff000;
@@ -42,5 +37,42 @@ a{
     size: 100px;
 }
 .stats{
-     font-size:30px;
+     font-size:20px;
 }
+
+@media (max-width: 60rem) {
+    body {
+        background: linear-gradient(to bottom left, #73C8A9, #373B44);
+    }
+    #main{
+        margin: 50px;
+        padding: 15px;
+        border-radius: 5px;
+        background: #101536 ;
+        color:#fff000;
+        place-items: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        grid-template-areas: "text_"
+        "picture_";
+    }
+    #text1{
+        grid-area: text_;
+    }
+    #text2{
+        grid-area: text_;
+    } 
+    #text3{
+        grid-area: text_;
+    } 
+    .clay1{
+        grid-area: picture_;
+    }
+    .clay2{
+        grid-area: picture_;
+    }
+    .clay3{
+        grid-area: picture_;
+    }
+  }
