@@ -7,7 +7,10 @@ body{
     border-radius: 5px;
     background: #101536 ;
     color:#fff000;
-    text-align: center;
+    place-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    flex: 1 1 150px;
     }
 h1{
     font-size:25px;
