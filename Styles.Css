@@ -17,10 +17,11 @@ h1{
 }
 p{
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 a{
     color: #fff000;
+    font-size:20px
 }
 .clay1{
     border: 5px solid #b5a269;
@@ -37,7 +38,4 @@ a{
 }
 .stats{
      font-size:30px;
-}
-li{
-    font-size:22px
 }
