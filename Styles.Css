@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(to top right, #BE5869, #373B44);
 }
-@media (max-width: 800px) {
+@media (max-width: 85rem) {
     body {
         background: linear-gradient(to bottom left, #73C8A9, #373B44);
     }
