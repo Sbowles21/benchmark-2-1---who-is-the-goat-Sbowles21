@@ -1,12 +1,14 @@
-h1,p{
+body{
+    background: linear-gradient(to bottom left, #73C8A9, #373B44);
+}
+#main{
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
-    background: #b5a269 ;
+    background: #101536;
     color:#fff000;
     text-align: center;
     }
-body{background: linear-gradient(to bottom left, #73C8A9, #373B44);}
 h1{
     font-size:25px;
 }
@@ -14,14 +16,17 @@ p{
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
 }
+a{
+    color: #fff000;
+}
 .clay1{
-    border: 5px solid#101536;
+    border: 5px solid#b5a269 ;
     border-radius: 100%;
     height: 150px;
     width: 150px;
 }
 .clay2,.clay3{
-    border: 5px solid#101536;
+    border: 5px solid#b5a269;
     border-radius: 15px;
     height: 250px;
     width: 250px;
